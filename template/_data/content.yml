@@ -155,7 +155,7 @@ resume:
 
   button:
     text: "Download CV"
-    link: "assets/SJCV.pdf"
+    link: "https://drive.google.com/file/d/1-Sm1BL2Ut5o4HMuYl-H4GFoa4IEgp5vt/view"
 
 ### Pricing [ pricing ]
 pricing:
