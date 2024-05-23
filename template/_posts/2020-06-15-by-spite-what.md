@@ -1,4 +1,4 @@
----
+<!-- ---
 layout: post
 title:  "By spite about what to do"
 date:   2020-06-15
@@ -28,4 +28,4 @@ def print_hi(name)
 end
 print_hi('Ryan')
 #=> prints 'Hi, Ryan' to STDOUT.
-```
+``` -->

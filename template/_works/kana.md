@@ -1,10 +1,10 @@
 ---
 # preview details
 layout: works-single
-title: Kana
-category: Photography
+title: Sarazo
+category: Manufacturing
 category_slug: photography
-image: assets/img/works/work7.jpg
+image: https://sarazo.co.ke/wp-content/uploads/2018/07/post-2-150x150-1.jpg
 
 # full details
 full_image: assets/img/works/single1.jpg

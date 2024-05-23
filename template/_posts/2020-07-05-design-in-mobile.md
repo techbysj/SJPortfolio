@@ -1,4 +1,4 @@
----
+<!-- ---
 layout: post
 title:  Design in Mobile Application
 date:   2020-07-05
@@ -31,4 +31,4 @@ def print_hi(name)
 end
 print_hi('Ryan')
 #=> prints 'Hi, Ryan' to STDOUT.
-```
+``` -->

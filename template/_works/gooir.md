@@ -1,10 +1,10 @@
 ---
 # preview details
 layout: works-single
-title: Gooir
-category: UI UX Design
+title: BOP
+category: Charity Organisation
 category_slug: ui-ux-design
-image: assets/img/works/work4.jpg
+image: https://bopfoundation.org/wp-content/uploads/2021/07/case-11-1.jpg
 
 # full details
 full_image: assets/img/works/single1.jpg

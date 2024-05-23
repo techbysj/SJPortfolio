@@ -1,10 +1,11 @@
 ---
 # preview details
 layout: works-single
-title: Zorro
-category: Branding
+title: Nvl360
+category: Cloud | Security 
 category_slug: branding
-image: assets/img/works/work1.jpg
+image: https://techbysj.ke/wp-content/uploads/2019/10/3-2.jpg
+
 
 # full details
 full_image: assets/img/works/single1.jpg

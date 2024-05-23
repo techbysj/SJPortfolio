@@ -1,10 +1,10 @@
 ---
 # preview details
 layout: works-single
-title: Mozar
-category: Photography
+title: Novaa
+category: Digital Marketing 
 category_slug: photography
-image: assets/img/works/work1.jpg
+image: https://techbysj.ke/wp-content/uploads/2019/10/6-2.jpg
 
 # full details
 full_image: assets/img/works/single1.jpg

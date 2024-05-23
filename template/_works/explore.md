@@ -1,10 +1,11 @@
 ---
 # preview details
 layout: works-single
-title: Explore
-category: Development
+title: TEO
+category: Tutor | Community Empowerment
 category_slug: development
-image: assets/img/works/work7.jpg
+image: https://techbysj.ke/wp-content/uploads/2019/10/6-1.jpg
+
 
 # full details
 full_image: assets/img/works/single1.jpg

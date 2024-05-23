@@ -1,10 +1,10 @@
 ---
 # preview details
 layout: works-single
-title: Stay Fit
-category: Development
+title: Lms
+category: School
 category_slug: development
-image: assets/img/works/work4.jpg
+image: https://vipingomuslim.sc.ke/wp-content/uploads/2023/11/VIPINGO-MUSLIM-SECONDARY-SCHOOL-5.png
 
 # full details
 full_image: assets/img/works/single1.jpg
