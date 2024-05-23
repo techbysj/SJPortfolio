@@ -40,14 +40,14 @@ footer:
 ### Portfolio Filters Settings
 portfolio:
   filters:
-    - name: "UI UX Design"
+    - name: "Cloud"
       slug: "ui-ux-design"
 
-    - name: "Photography"
+    - name: "Security"
       slug: "photography"
 
     - name: "Development"
       slug: "development"
 
-    - name: "Branding"
+    - name: "Marketing"
       slug: "branding"

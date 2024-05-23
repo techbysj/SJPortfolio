@@ -260,9 +260,9 @@ contacts:
 #items generates from dir /_posts/*
 blog:
   title: "My Blog"
-  text: "<p>Suspendisse potenti. Sed egestas eros eu libero posuere ultrices. Nullam ut aliquet felis, sit amet imperdiet felis.</p>"
-  button: "View Blog"
-  link: "blog/"
+  text: "<p>Stay Tuned! Coming Soon.</p>"
+  # button: "View Blog"
+  # link: "blog/"
 
 ### Portfolio [ portfolio ]
 #items generates from dir /_works/*
