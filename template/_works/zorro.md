@@ -1,4 +1,4 @@
----
+<!-- ---
 # preview details
 layout: works-single
 title: Nvl360
@@ -37,4 +37,4 @@ video:
   poster: assets/img/blog/blog9.jpg
   id: Gu6z6kIukgg
 
----
+--- -->
