@@ -1,0 +1,637 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<title>Ober - One Page Resume & CV Jekyll Theme</title>
+	<meta charset="utf-8" />
+	<link rel="stylesheet" href="assets/style.css">
+	<link rel="stylesheet" href="assets/table.css">
+</head>
+<body>
+	<header class="dt-header dt-header_blue">
+		<span class="dt-logo">Ober v.1.0 - One Page Resume & CV Jekyll Theme</span>
+		<span class="dt-demo">
+			<a href="https://ober-jekyll.netlify.app" target="_blank">Visit Demo</a>
+		</span>
+	</header>
+	<div class="dt-container dt-container_flex">
+		<aside class="dt-navbar">
+			<nav class="dt-navbar__nav">
+				<div class="dt-navbar__section">
+					<ul class="dt-navbar__list">
+						<li><a href="#installation" class="dt-navbar__link">Installation</a></li>
+						<li><a href="#basic" class="dt-navbar__link">Basic Configurations</a></li>
+						<li><a href="#header" class="dt-navbar__link">Header Configurations</a></li>
+						<li><a href="#footer" class="dt-navbar__link">Footer Configurations</a></li>
+						<li><a href="#navigation" class="dt-navbar__link">Navigation Configurations</a></li>
+						<li><a href="#content" class="dt-navbar__link">Content Configurations</a></li>
+						<li><a href="#home-page-builder" class="dt-navbar__link">Home Page Builder</a></li>
+						<li><a href="#posts" class="dt-navbar__link">Posts</a></li>
+						<li><a href="#pages" class="dt-navbar__link">Pages</a></li>
+						<li><a href="#projects" class="dt-navbar__link">Projects</a></li>
+						<li><a href="#colors" class="dt-navbar__link">Color Schemes</a></li>
+						<li><a href="#contacts" class="dt-navbar__link">Contact Form</a></li>
+						<li><a href="#disqus" class="dt-navbar__link">Disqus Comments</a></li>
+						<li><a href="#styles" class="dt-navbar__link">Style Customization</a></li>
+						<li><a href="#translation" class="dt-navbar__link">Translation</a></li>
+						<li><a href="#netlify" class="dt-navbar__link">Netlify</a></li>
+						<li><a href="#icons" class="dt-navbar__link">Icons</a></li>
+						<li><a href="#credits" class="dt-navbar__link">Credits</a></li>
+					</ul>
+				</div>
+			</nav>
+		</aside>
+		<div class="dt-content dt-content_scroll-bar-yes">
+			<div class="dt-section">
+				<h2 class="dt-title">Ober - One Page Resume & CV Jekyll Theme</h2>
+				<p>Author: <a href="https://1.envato.market/e45XQj" target="_blank">ThemeForest Profile</a> |
+				<a href="https://ober-jekyll.netlify.app/" target="_blank">Demo</a> | <a href="https://bslthemes.com" target="_blank">Website</a> | <a href="mailto:beshleyua@gmail.com">Contact with me</a></p>
+			</div>
+			<article id="installation" class="dt-section">
+				<h2 class="dt-title">Installation</h2>
+				<p>1. First, unzip main file, copy all files from /theme/ folder to your work dir.</p>
+				<p>2. To run the theme locally, navigate to the theme directory and install all the dependencies with <a href="http://bundler.io/" target="_blank">Bundler</a>:</p>
+				<div class="dt-info-block">
+					<pre class="code language-html">
+						<code>
+bundle install
+						</code>
+					</pre>
+				</div>
+				<p>3. Then run the following command to start the Jekyll server</p>
+				<div class="dt-info-block">
+					<pre class="code language-html">
+						<code>
+bundle exec jekyll serve
+						</code>
+					</pre>
+				</div>
+				<p>4. Browse to <a href="http://localhost:4000" target="_blank">http://localhost:4000</a></p>
+				<p>You can find more on <a href="https://jekyllrb.com/docs/deployment-methods/" target="_blank">Deployment Methods</a> page on Jekyll Website.</p>
+			</article>
+
+			<article id="basic" class="dt-section">
+				<h2 class="dt-title">Basic Configurations</h2>
+				<p>
+					Basic site options you can edit in <code>_config.yml</code> file:
+				</p>
+				<div class="dt-info-block">
+					<pre class="code language-yaml">
+						<code>
+# basic settings
+title: "Ober - Resume / CV Jekyll Theme"
+email: "your-email@example.com"
+description: "Jekyll Resume / CV / vCard / Portfolio template"
+author: "Admin"
+baseurl: "" # the subpath of your site, e.g. /blog
+url: "" # the base hostname & protocol for your site, e.g. http://example.com
+date_format: "%d %B %Y"
+
+# paginations & permalinks
+paginate: 9
+paginate_path: "/blog/page:num/"
+permalink: pretty
+						</code>
+					</pre>
+				</div>
+			</article>
+			<article id="header" class="dt-section">
+				<h2 class="dt-title">Header Configurations</h2>
+				<p>
+					To configure header go to <code>_data/settings.yml</code> file:
+				</p>
+				<div class="dt-info-block">
+					<pre class="code language-yaml">
+						<code>
+### Header
+header:
+  logo:
+    image: "assets/img/ober_logo.png"
+    alt: "Joé Wilson"
+						</code>
+					</pre>
+				</div>
+				<ul class="dt-list dt-list_nested">
+					<li><strong>"logo"</strong> - Logo image and Alt</li>
+				</ul>
+			</article>
+			<article id="footer" class="dt-section">
+				<h2 class="dt-title">Footer Configurations</h2>
+				<p>
+					To configure footer go to <code>_data/settings.yml</code> file:
+				</p>
+				<div class="dt-info-block">
+					<pre class="code language-yaml">
+						<code>
+### Social
+social:
+  - name: "Dribbble"
+    icon: "fab fa-dribbble"
+    url: "http://dribbble.com"
+
+  - name: "Twitter"
+    icon: "fab fa-twitter"
+    url: "http://twitter.com"
+
+  - name: "Behance"
+    icon: "fab fa-behance"
+    url: "http://behance.com"
+
+### Footer
+footer:
+  developer: "Developed by <strong>bslthemes</strong>"
+  copyright: "Ober. All Rights Reserved"
+						</code>
+					</pre>
+				</div>
+				<ul class="dt-list dt-list_nested">
+					<li><strong>"social"</strong> - Social Links (Title, URL, Icon Class), icon class name you can find <a href="https://fontawesome.com/icons" target="_blank">here</a></li>
+					<li><strong>"footer -> developer"</strong> - Developer Text in Footer Section</li>
+					<li><strong>"footer -> copyright"</strong> - Copyright Text in Footer Section</li>
+				</ul>
+			</article>
+			<article id="navigation" class="dt-section">
+				<h2 class="dt-title">Navigation Configurations</h2>
+				<p>
+					To configure site navigation left panel go to <code>_data/navigation.yml</code> file:
+				</p>
+				<div class="dt-info-block">
+					<pre class="code language-yaml">
+						<code>
+...
+
+main:
+  # About
+  - title: "About"
+    url: "#about-section"
+    parent: 0
+
+  # Resume
+  - title: "Resume"
+    url: "#resume-section"
+    parent: 0
+
+  # Works
+  - title: "Works"
+    url: "#works-section"
+    parent: 0
+
+  # Pricing
+  - title: "Pricing"
+    url: "#pricing-section"
+    parent: 0
+
+...
+						</code>
+					</pre>
+				</div>
+				<p>Each menu item are linked with header menu. To add new menu item use this code:</p>
+				<div class="dt-info-block">
+					<pre class="code language-yaml">
+						<code>
+  - title: "Resume"
+    url: "#section-resume"
+    parent: 0
+						</code>
+					</pre>
+				</div>
+				<ul class="dt-list dt-list_nested">
+					<li><strong>"title"</strong> - Menu item name</li>
+					<li><strong>"url"</strong> - Menu item url</li>
+					<li><strong>"parent"</strong> - Sub Menu Item. if "1" sub menu style was activated for menu item.</li>
+					<li><strong>"childs"</strong> - Sub Menu Items List</li>
+				</ul>
+			</article>
+			<article id="content" class="dt-section">
+				<h2 class="dt-title">Content Configurations</h2>
+				<p>
+					All content of all pre-built sections on home page you can edit in <code>_data/content.yml</code> file.
+				</p>
+				<p>All pre-built sections name:</p>
+				<div class="dt-info-block">
+					<pre class="code language-yaml">
+						<code>
+- hero-image
+- about
+- resume
+- portfolio
+- pricing
+- testimonials
+- clients
+- blog
+- contacts
+						</code>
+					</pre>
+				</div>
+			</article>
+			<article id="home-page-builder" class="dt-section">
+				<h2 class="dt-title">Home Page Builder</h2>
+				<p>
+					To edit a home page structure go to file <code>/index.html</code>
+				</p>
+				<p>
+					For example standart page file structure:
+				</p>
+				<div class="dt-info-block">
+					<pre class="code language-yaml">
+						<code>
+---
+layout: builder
+sections: hero-image,about,resume,portfolio,pricing,testimonials,blog,clients,contacts
+---
+						</code>
+					</pre>
+				</div>
+				<ul class="dt-list dt-list_nested">
+					<li><strong>"layout"</strong> - "builder", used if you want activated builder for page</li>
+					<li><strong>"sections"</strong> - List of sections names per comma for home page. All names you can check in <a href="#content">Content Configurations</a>.</li>
+				</ul>
+			</article>
+			<article id="posts" class="dt-section">
+				<h2 class="dt-title">Posts</h2>
+				<p>
+					To create a new post, you can create a new markdown file inside the <code>/_posts/</code> directory by following the recommended file naming format:
+				</p>
+				<div class="dt-info-block">
+					<pre class="code language-yaml">
+						<code>
+YEAR-MONTH-DAY-title.MARKUP
+						</code>
+					</pre>
+				</div>
+				<p>
+					Where <code>YEAR</code> is a four-digit number, <code>MONTH</code> and <code>DAY</code> are both two-digit numbers, and <code>MARKUP</code> is the file extension representing the format used in the file. For example, the following are examples of valid post filenames:
+				</p>
+				<div class="dt-info-block">
+					<pre class="code language-yaml">
+						<code>
+2011-12-31-new-years-eve-is-awesome.md
+2012-09-12-how-to-write-a-blog.md
+						</code>
+					</pre>
+				</div>
+				<p>
+					All blog post files must begin with front matter which is typically used to set a layout or other meta data betwenn "---" and "---"". After will be rendered with Markdown and show up as “Content”.
+				</p>
+				<p>
+					For example standart post file structure:
+				</p>
+				<div class="dt-info-block">
+					<pre class="code language-yaml">
+						<code>
+---
+layout: post
+title:  "By spite about what to do"
+date:   2020-06-15
+category: Design
+image: assets/img/blog/blog1.jpg
+author: Ryan Adlard
+tags: jekyll
+---
+
+So striking at of to welcomed resolved. Northward by described up household therefore attention. Excellence decisively nay man yet impression for contrasted remarkably.
+						</code>
+					</pre>
+				</div>
+				<p>To create a draft post, create the post file under the <code>/_drafts/</code> directory, and you can find more information at <a href="http://jekyllrb.com/docs/drafts/" target="_blank">Working with Drafts</a>.</p>
+			</article>
+			<article id="pages" class="dt-section">
+				<h2 class="dt-title">Pages</h2>
+				<p>
+					To create a new pages, you need create a new markdown file inside the your work directory.
+				</p>
+				<p>
+					All pages files must begin with front matter which is typically used to set a layout or other meta data betwenn "---" and "---"". Text after will be rendered with Markdown and show up as “Content”.
+				</p>
+				<p>
+					For example standart page file structure:
+				</p>
+				<div class="dt-info-block">
+					<pre class="code language-yaml">
+						<code>
+---
+layout: page
+title: About
+---
+
+So striking at of to welcomed resolved. Northward by described up household therefore attention. Excellence decisively nay man yet impression for contrasted remarkably.
+						</code>
+					</pre>
+				</div>
+			</article>
+			<article id="projects" class="dt-section">
+				<h2 class="dt-title">Projects</h2>
+				<p>
+					To create a new project, you need create a new markdown file inside the <code>/_works/</code>.
+				</p>
+				<p>
+					All projects files must begin with front matter which is typically used to set a layout or other meta data betwenn "---" and "---"". Text after will be rendered with Markdown and show up as “Content”.
+				</p>
+				<p>
+					For example standart project file structure:
+				</p>
+				<div class="dt-info-block">
+					<pre class="code language-yaml">
+						<code>
+---
+# preview details
+layout: works-single
+title: Mozar
+category: Photography
+category_slug: photography
+image: assets/img/works/work1.jpg
+
+# full details
+full_image: assets/img/works/single1.jpg
+info:
+  - label: Year
+    value: 2022
+
+  - label: Technology
+    value: Photoshop, XD
+
+description1:
+  show: yes
+  title: Project Goal
+  text: "<p>Aliquam a sapien diam. Phasellus pulvinar tellus aliquam eleifend consectetur. Sed bibendum leo quis rutrum aliquetmorbi.</p>
+  <p>Donec imperdiet risus at tortor consequat maximus et eget magna. Cras ornare sagittis augue, id sollicitudin justo tristique ut. Nullam ex enim, euismod vel bibendum ultrices, fringilla vel eros. Donec euismod leo lectus, et euismod metus euismod sed. Quisque quis suscipit ipsum, at pellentesque velit. Duis a congue sem.</p>"
+
+gallery:
+  - assets/img/blog/blog3.jpg
+  - assets/img/works/work4.jpg
+  - assets/img/blog/blog4.jpg
+
+description2:
+  title: Project Result
+  text: "<p>Aliquam a sapien diam. Phasellus pulvinar tellus aliquam eleifend consectetur. Sed bibendum leo quis rutrum aliquetmorbi.</p>
+  <p>Donec imperdiet risus at tortor consequat maximus et eget magna. Cras ornare sagittis augue, id sollicitudin justo tristique ut. Nullam ex enim, euismod vel bibendum ultrices, fringilla vel eros. Donec euismod leo lectus, et euismod metus euismod sed. Quisque quis suscipit ipsum, at pellentesque velit. Duis a congue sem.</p>"
+
+video:
+  poster: assets/img/blog/blog9.jpg
+  id: Gu6z6kIukgg
+---
+						</code>
+					</pre>
+				</div>
+				<p>
+					Preview/General Details
+				</p>
+				<ul class="dt-list dt-list_nested">
+					<li><strong>"title"</strong> - Project Name</li>
+					<li><strong>"category"</strong> - Project Category Name</li>
+					<li><strong>"category_slug"</strong> - Project Category Slug (must be same as in filters and use only latin characters)</li>
+					<li><strong>"image"</strong> - Project Preview Image</li>
+				</ul>
+				<p>
+					Single Page Details
+				</p>
+				<ul class="dt-list dt-list_nested">
+					<li><strong>"full_image"</strong> - Project Full Image</li>
+					<li><strong>"info"</strong> - Project Info List</li>
+					<li><strong>"description1"</strong> - Project Description First (Start)</li>
+					<li><strong>"gallery"</strong> - Project Gallery Images</li>
+					<li><strong>"description2"</strong> - Project Description Second (End)</li>
+					<li><strong>"video"</strong> - Project Youtube Video ID and Cover Image</li>
+				</ul>
+			</article>
+			<article id="colors" class="dt-section">
+				<h2 class="dt-title">Light / Dark UI</h2>
+				<p>Select initial skin ( "light" or "dark" ) for <code>settings -> skin</code> option in the <code>/_data/settings.yml</code> file:</p>
+				<div class="dt-info-block">
+					<pre class="code language-yaml">
+						<code>
+### Main Settings
+settings:
+  skin: "light" # select initial sking option: "light" or "dark"
+							</code>
+					</pre>
+				</div>
+			</article>
+			<article id="contacts" class="dt-section">
+				<h2 class="dt-title">Contact Form</h2>
+				<p>To configure form submission you need confirm you email ( where you want get submissions ) on site <a href="https://formsubmit.io/dashboard/" target="_blank">formsubmit.io</a>. After, change option <code>formsubmit_email</code> in <code>/_config.yml</code> file:</p>
+				<div class="dt-info-block">
+					<pre class="code language-yaml">
+						<code>
+# formsubmit.io
+formsubmit_email: "beshleyweb@gmail.com" # sign up on https://formsubmit.io/ and confirm your email
+						</code>
+					</pre>
+				</div>
+			</article>
+			<article id="disqus" class="dt-section">
+				<h2 class="dt-title">Disqus Comments</h2>
+				<p>You can configure Disqus Comments options in <code>/_config.yml</code> file:</p>
+				<div class="dt-info-block">
+					<pre class="code language-yaml">
+						<code>
+# disqus comments
+disqus_comments: "yes" # yes - show disqus comments, no - hide disqus comments
+disqus_shortname: "glitche-jekyll-theme" # read more here https://help.disqus.com/customer/portal/articles/466208-what-s-a-shortname-
+						</code>
+					</pre>
+				</div>
+				<p>You can find out more about Disqus’ shortnames <a href="https://help.disqus.com/customer/portal/articles/466208-what-s-a-shortname-" target="_blank">here</a>.</p>
+			</article>
+			<article id="styles" class="dt-section">
+				<h2 class="dt-title">Styles Customizations</h2>
+				<p>To change styles default variables go to <code>/_sass/ober/settings.scss</code>:</p>
+				<div class="dt-info-block">
+					<pre class="code language-css">
+						<code>
+/* SETTINGS VARIABLES FOR DARK UI
+	- Background Colors
+	- Colors
+*/
+
+/* Background Colors */
+$default_bg: #222a36;
+$second_bg: #181e27;
+
+/* Colors */
+$default_color: #fff;
+$white_color: #FFF;
+$dark_color: #000;
+$active_color: #ff8059;
+$error_color: red;
+
+/* SETTINGS VARIABLES FOR LIGHT UI
+	- Background Colors
+	- Colors
+*/
+
+/* Background Colors */
+$light_default_bg: #f7f5f2;
+$light_second_bg: #ebe7e0;
+
+/* Colors */
+$light_default_color: #1c2528;
+$light_white_color: #FFF;
+$light_dark_color: #000;
+$light_active_color: #68e0cf;
+$light_error_color: red;
+
+/* SETTINGS VARIABLES FOR TYPOGRAPHY
+	- Fonts
+	- Fonts Size
+	- Icons Size
+	- Line Height
+	- Mixins
+*/
+
+/* Fonts */
+$default_font: 'Rubik';
+$extra_font: 'Sorts Mill Goudy';
+
+/* Fonts Size */
+
+$default_size: 20px;
+
+$section_h1_size: 138px;
+$section_h2_size: 100px;
+$section_sub_size: 40px;
+$section_name_size: 24px;
+
+$btn_size: 18px;
+
+$menu_size: 120px;
+$menu_sub_size: 40px;
+
+$title_h1_size: 49px;
+$title_h3_size: 39px;
+$title_h4_size: 29px;
+$title_h5_size: 24px;
+$title_h6_size: 20px;
+
+/* Fonts Weight */
+$font_weight: 300;
+
+/* Line Height */
+$line_height: 1.5;
+						</code>
+					</pre>
+				</div>
+			</article>
+			<article id="translation" class="dt-section">
+				<h2 class="dt-title">Translation</h2>
+				<p>To translate all default strings go to <code>/_data/ui-text.yml</code> file</p>
+				<pre class="code language-yaml">
+					<code>
+ui_text:
+  home:                 "Home"
+  blog:                 "Blog"
+  blog_subtitle:        "All the most current news and events of my life"
+  archive:              "Archive"
+  blog_post:            "Blog Post"
+  by:                   "by"
+  share:                "Share"
+  share_on:             "Share on"
+  tags:                 "Tags"
+  prev:                 "Prev"
+  next:                 "Next"
+  comments:             "Comments"
+  full_name:            "Full Name"
+  your_full_name:       "ej.: Genoveva Lian Hullt"
+  email_address:        "Email Address"
+  your_email_address:   "example@domain.com"
+  message:              "Message"
+  your_message:         "To Write"
+  send_message:         "Send Message"
+  view_project:         "View Project"
+  new:                  "new"
+  search:               "Search ..."
+  recent_posts:         "Recent Posts"
+  latest_posts:         "Latest Posts"
+  categories:           "Categories"
+  follow_me:            "Follow Me"
+  all:                  "All"
+  read_more:            "Read More"
+					</code>
+				</pre>
+			</article>
+			<article id="netlify" class="dt-section">
+				<h2 class="dt-title">Netlify</h2>
+				<p>Use this <a href="https://www.netlify.com/blog/2015/10/28/a-step-by-step-guide-jekyll-3.0-on-netlify/" target="_blank">Guide</a>: A Step-by-Step Guide: Jekyll 3.0 on Netlify</p>
+			</article>
+			<article id="icons" class="dt-section">
+				<h2 class="dt-title">Icons</h2>
+				<p>
+					In this template are defined some of classes for icons, your can see all icons here - <a href="https://fontawesome.com/" target="_blank">Fontawesome</a>.
+				</p>
+			</article>
+			<article id="credits" class="dt-section">
+				<h2 class="dt-title">Sourse & Credits</h2>
+				<h3>Scripts</h3>
+				<ul class="dt-list dt-list_nested dt-info-block">
+					<li>
+						<span class="dt-label dt-label_bold">Jekyll</span> <a target="_blank" href="https://jekyllrb.com/">https://jekyllrb.com/</a>
+					</li>
+					<li>
+						<span class="dt-label dt-label_bold">Animate.css</span> <a target="_blank" href="https://daneden.github.io/animate.css/">https://daneden.github.io/animate.css/</a>
+					</li>
+					<li>
+						<span class="dt-label dt-label_bold">jQuery</span> <a target="_blank" href="https://jquery.com/">https://jquery.com/</a>
+					</li>
+					<li>
+						<span class="dt-label dt-label_bold">Isotope</span> <a target="_blank" href="https://isotope.metafizzy.co/">https://isotope.metafizzy.co/</a>
+					</li>
+					<li>
+						<span class="dt-label dt-label_bold">imagesLoaded</span> <a target="_blank" href="http://imagesloaded.desandro.com/">http://imagesloaded.desandro.com/</a>
+					</li>
+					<li>
+						<span class="dt-label dt-label_bold">jQuery Validation Plugin</span> <a target="_blank" href="http://jqueryvalidation.org/">http://jqueryvalidation.org/</a>
+					</li>
+					<li>
+						<span class="dt-label dt-label_bold">Magnific Popup</span> <a target="_blank" href="http://dimsemenov.com/plugins/magnific-popup/">http://dimsemenov.com/plugins/magnific-popup/</a>
+					</li>
+					<li>
+						<span class="dt-label dt-label_bold">Swiper</span> <a target="_blank" href="https://github.com/nolimits4web/swiper">https://github.com/nolimits4web/swiper</a>
+					</li>
+					<li>
+						<span class="dt-label dt-label_bold">Bootstrap</span> <a target="_blank" href="https://github.com/twbs/bootstrap">https://github.com/twbs/bootstrap</a>
+					</li>
+					<li>
+						<span class="dt-label dt-label_bold">Jarallax</span> <a target="_blank" href="https://github.com/nk-o/jarallax">https://github.com/nk-o/jarallax</a>
+					</li>
+					<li>
+						<span class="dt-label dt-label_bold">Splitting</span> <a target="_blank" href="https://github.com/shshaw/Splitting">https://github.com/shshaw/Splitting</a>
+					</li>
+					<li>
+						<span class="dt-label dt-label_bold">Skrollr</span> <a target="_blank" href="https://github.com/Prinzhorn/skrollr">https://github.com/Prinzhorn/skrollr</a>
+					</li>
+					<li>
+						<span class="dt-label dt-label_bold">Scrolla</span> <a target="_blank" href="https://github.com/maximzhurkin/jquery-scrolla">https://github.com/maximzhurkin/jquery-scrolla</a>
+					</li>
+					<li>
+						<span class="dt-label dt-label_bold">jQuery Cookie</span> <a target="_blank" href="https://github.com/carhartl/jquery-cookie">https://github.com/carhartl/jquery-cookie</a>
+					</li>
+
+				</ul>
+				<h3>Fonts</h3>
+				<ul class="dt-list dt-list_nested dt-info-block">
+					<li>
+						<span class="dt-label dt-label_bold">Rubik</span> <a target="_blank" href="https://fonts.google.com/specimen/Rubik">https://fonts.google.com/specimen/Rubik</a>
+					</li>
+					<li>
+						<span class="dt-label dt-label_bold">Sorts Mill Goudy</span> <a target="_blank" href="https://fonts.google.com/specimen/Sorts+Mill+Goudy">https://fonts.google.com/specimen/Sorts+Mill+Goudy</a>
+					</li>
+					<li>
+						<span class="dt-label dt-label_bold">Fontawesome</span> <a target="_blank" href="https://fontawesome.com/">https://fontawesome.com/</a>
+					</li>
+				</ul>
+				<h3>Images</h3>
+				<p>Any Images or logos used in previews are not included in this item or final purchase.</p>
+				<ul class="dt-list dt-list_nested dt-info-block">
+					<li>
+						<span class="dt-label dt-label_bold">Unsplash</span> <a target="_blank" href="https://unsplash.com/">https://unsplash.com/</a>
+					</li>
+					<li>
+						<span class="dt-label dt-label_bold">Graphicburger</span> <a target="_blank" href="http://graphicburger.com/">http://graphicburger.com/</a>
+					</li>
+				</ul>
+			</article>
+		</div>
+	</div>
+
+	<script src="assets/rainbow-custom.min.js"></script>
+</body>
+</html>

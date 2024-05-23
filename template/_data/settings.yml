@@ -1,0 +1,53 @@
+# Theme Settings Configuration File
+##
+### use settings.yml file for configure colors, ui, rtl, sidebar, animation options
+
+### Main Settings
+settings:
+  skin: "light" # select initial sking option: "light" or "dark"
+
+### Preloader
+preloader:
+  logo:
+    image: "assets/img/TECHBYSJ LOGO.png"
+    alt: ""
+
+### Header
+header:
+  logo:
+    image: "assets/img/TECHBYSJ LOGO.png"
+    alt: "Salim Jamal"
+
+### Social
+social:
+  - name: "LinkedIn"
+    icon: "fab fa-linkedin-in"
+    url: "https://www.linkedin.com/in/techbysj/"
+
+  - name: "Instagram"
+    icon: "fab fa-instagram"
+    url: "https://www.instagram.com/techbysj/"
+
+  - name: "Github"
+    icon: "fab fa-github"
+    url: "https://github.com/techbysj"
+
+### Footer
+footer:
+  developer: "Developed by <strong>TECHBYSJ</strong>"
+  copyright: "Salim Jamal Abood. All Rights Reserved"
+
+### Portfolio Filters Settings
+portfolio:
+  filters:
+    - name: "UI UX Design"
+      slug: "ui-ux-design"
+
+    - name: "Photography"
+      slug: "photography"
+
+    - name: "Development"
+      slug: "development"
+
+    - name: "Branding"
+      slug: "branding"

@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="{{ page.lang | default: site.lang | default: "en" }}">
+
+  {%- include head.html -%}
+
+  {% assign settings = site.data.settings['settings'] %}
+
+  <body class="{% if page.layout == 'builder' %} home{% endif %}{% if page.layout == 'blog' or page.layout == 'archive' %} blog{% endif %}{% if page.layout == 'post' or page.layout == 'works-single' or page.layout == 'page' or page.layout == 'error' %} page{% endif %}{% if settings.skin == 'light' %} light-skin{% endif %}">
+
+    <div class="container-page ">
+
+      {%- include preloader.html -%}
+
+      {%- include header.html -%}
+
+      <!-- Wrapper -->
+  		<div class="wrapper{% if page.layout == 'works-single' or page.layout == 'page' %} project-single{% endif %}{% if page.layout == 'post' %} single-post{% endif %}">
+        {{ content }}
+      </div>
+
+      {%- include footer.html -%}
+    </div>
+
+    {%- include scripts.html -%}
+
+  </body>
+
+</html>

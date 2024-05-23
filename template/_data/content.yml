@@ -1,0 +1,271 @@
+# Sections content configuration file
+##
+### use navigation.yml file to re-order, delete or add section of each card
+### here you can find all content in all pre-build sections
+
+### Hero [ hero-image ]
+hero:
+  image: "assets/img/profile.png"
+  image_alt: "Salim Jamal"
+  title: "Salim <br>Abood"
+  subtitle: "Web Developer"
+  description: "I am a web developer based in the UK. I love crafting modern, user-friendly solutions and am passionate about creating a seamless web experience."
+  info:
+    - label: "Located in"
+      value: "United Kingdom"
+
+    - label: "Experience"
+      value: "5+ Years"
+
+    - label: "Date of Birth"
+      value: "19th March 2001"
+
+### About [ about ]
+about:
+  title: "About Me"
+  text: "
+  <p>
+    My name is Salim Jamal Abood, and I am driven by a passion for crafting seamless web experiences that effectively address complex business challenges. With 5 years of professional experience in web development, I have honed my skills in both front-end and back-end technologies through a combination of hired roles, freelance projects, and self-employment. This diverse experience has allowed me to cultivate a deep understanding of various web development frameworks and techniques.
+  </p>
+  <p>
+   My extensive knowledge empowers me to seamlessly adapt within teams, demonstrating versatility and adaptability. I specialize in creating modern, user-friendly websites that offer a smooth and engaging experience for users, ensuring that each project I undertake stands out through the use of the latest technologies and design trends.
+  </p>
+  <p>
+    Above all, my unwavering commitment lies in consistently delivering top-notch results within demanding timeframes. I prioritize both quality and timeliness, striving to exceed client expectations and deliver web experiences that are not only visually appealing but also highly functional and intuitive.
+  </p>
+  "
+  list:
+    - label: "Completed <br>Project"
+      icon: "far fa-check-circle"
+      value: "74"
+
+    - label: "Happy <br>Clients"
+      icon: "far fa-smile-beam"
+      value: "65"
+
+    - label: "Awards <br>Won"
+      icon: "far fa-gem"
+      value: "10"
+
+  button:
+    text: "Contact Me"
+    link: "#contact-section"
+
+  signature:
+    image: "assets/img/signature.png"
+    alt: ""
+
+### Resume [ resume ]
+resume:
+  title: "My Resume"
+  text: "
+  <p>
+    Seasoned web developer with +5 years of hands-on experience, adept at crafting innovative digital solutions. Specializing in front-end development, I bring a proven track record of delivering polished web experiences. Skilled in both freelance and corporate environments, I excel in adapting to diverse project requirements and collaborating effectively with stakeholders.
+  </p>
+  "
+
+  skills:
+    title: "Skills"
+    items:
+      - label: "Front-End Development "
+        dots: "9" #0-10 progress in dots
+        value: "90" #0-100 progress in %
+
+      - label: "Back-End Development"
+        dots: "6" #0-10 progress in dots
+        value: "60" #0-100 progress in %
+
+      - label: "WordPress"
+        dots: "9" #0-10 progress in dots
+        value: "90" #0-100 progress in %
+
+      - label: "Graphic Design"
+        dots: "9" #0-10 progress in dots
+        value: "90" #0-100 progress in %
+
+      - label: "Digital Marketing"
+        dots: "9" #0-10 progress in dots
+        value: "90" #0-100 progress in %
+
+  services:
+    title: "Services"
+    items:
+      - icon: "fab fa-chrome"
+        name: "Web development"
+        text: "<p>Modern and mobile-ready website that will help you reach all of your marketing.</p>"
+        button: "order now"
+        link: "#contact-section"
+
+      - icon: "fab fa-soundcloud"
+        name: "Cloud Solutions"
+        text: "<p>Cloud solutions, development, implementation, migration, and optimization services.</p>"
+        button: "order now"
+        link: "#contact-section"
+
+      - icon: "fab fa-adversal"
+        name: "Advertising"
+        text: "<p>Advertising services include SEO, PPC, Ads, Graphics, and Web apps.</p>"
+        button: "order now"
+        link: "#contact-section"
+
+      - icon: "fas fa-gamepad"
+        name: "App Development"
+        text: "<p>Developing memorable and unique mobile android,and ios apps. </p>"
+        button: "order now"
+        link: "#contact-section"
+
+  history1:
+    - title: "EDUCATION"
+      items:
+        - date: "2020 - 2023"
+          name: "Diploma in Information Technology"
+          text: "Jomo Kenyatta University of Agriculture & Technology"
+
+        # - date: "2006 - 2009"
+        #   name: "Bachelors of FineArt"
+        #   text: "New York University"
+
+    - title: "AWARDS"
+      items:
+        - date: "2023-2024"
+          name: "Best Development Strategy"
+          text: "<p>Played a key role in a team, successfully managing and contributing to winning a prestigious record./p>"
+
+        - date: "2023-2024"
+          name: "Best Outstanding Project"
+          text: "<p>Led development team in bringing MyWish Enterprise( Kenyan local based Ecommerce Platform ) to live with 100% client satisfaction.</p>"
+
+  history2:
+    - title: "EXPERIENCE"
+      items:
+        - date: "Feb 2022 - Dec 2023"
+          name: "MyWish Enterprise's ecommerce platforms"
+          subname: "Web Developer"
+          text: "<p>Led secure web development, cloud services integration, ecommerce platforms, hosting management, digital marketing, IT support, and CI/CD pipelines.</p>"
+
+        - date: "Jan 2021 - 2024"
+          name: "Rebune International Home appliance  Company"
+          subname: "Digital Transformation Specialist"
+          text: "<p>Directed web development, architectural design, ecommerce sites, hosting services, digital marketing strategies, and CI/CD pipeline optimization.</p>"
+
+        - date: "Oct 2021 - Jan 2024"
+          name: "Innovus Tech Consultancy Company"
+          subname: "Web Developer"
+          text: "<p>Led software development projects at Innovus Tech Consultants Limited, overseeing web development, technical consultancy, and the integration of innovative solutions such as a bank agent top-up service and various features in different services.</p>"
+
+  button:
+    text: "Download CV"
+    link: "assets/SJCV.pdf"
+
+### Pricing [ pricing ]
+pricing:
+  title: "Pricing Plans"
+  text: "<p>Are you interested to work with me ? Here are my price list for design related work. Lets talk about project !</p>"
+  items:
+    - name: "Full Time"
+      subname: "Available for Full Time"
+      price: "$120,000 p.a"
+      list:
+        - value: "Frontend Development"
+        - value: "Backend Development"
+        - value: "DevOps"
+        - value: "Wordpress Development"
+        - value: "Digital Marketing"
+        - value: "Cloud Services"
+        - value: "Graphics"
+      button: "Hire Me"
+      link: "#contact-section"
+
+    - name: "Project Wise"
+      subname: "Available for Freelancing"
+      price: "$50-10,000"
+      list:
+        - value: "Frontend Development"
+        - value: "Backend Development"
+        - value: "DevOps"
+        - value: "Wordpress Development"
+        - value: "Digital Marketing"
+        - value: "Cloud Services"
+        - value: "Graphics"
+      button: "Hire Me"
+      link: "#contact-section"
+
+    - name: "Hourley"
+      subname: "Available for Hourley Basis"
+      price: "$50"
+      list:
+        - value: "Frontend Development"
+        - value: "Backend Development"
+        - value: "DevOps"
+        - value: "Wordpress Development"
+        - value: "Digital Marketing"
+        - value: "Cloud Services"
+        - value: "Graphics"
+        - value: "Tutorial"
+      button: "Hire Me"
+      link: "#contact-section"
+
+### Testimonials [ testimonials ]
+testimonials:
+  items:
+    - image: "assets/img/team3.jpg"
+      name: "Mr.Abdulkadir Aboo"
+      role: "CEO &amp; Founder"
+      text: "<p>Salim's expertise and dedication have been instrumental in our success. His ability to deliver top-notch web solutions under tight deadlines is unmatched.</p>"
+
+    - image: "assets/img/team3.jpg"
+      name: "Mr. Abdullatif Mohammed"
+      role: "Director"
+      text: "<p>Salim consistently exceeds expectations with his innovative approach and technical proficiency. His work has significantly enhanced our web presence.</p>"
+
+    - image: "assets/img/team3.jpg"
+      name: "Mustafa Somji"
+      role: "CEO &amp; Founder"
+      text: "<p>Salim is a highly skilled developer who brings creativity and precision to every project. His contributions have greatly improved our team's performance.</p>"
+
+### Clients [ clients ]
+clients:
+  title: "My Clients"
+  text: "<p>Over the years, I have had the privilege of collaborating with a diverse array of clients. Their satisfaction and success are a testament to my dedication and expertise. Here are some of the esteemed brands I've had the pleasure to work with:</p>"
+  items:
+    - image: "assets/img/brands/brand1.png"
+      title: "bslthemes"
+
+    - image: "assets/img/brands/brand2.png"
+      title: "bslthemes"
+
+    - image: "assets/img/brands/brand3.png"
+      title: "bslthemes"
+
+    - image: "assets/img/brands/brand4.png"
+      title: "bslthemes"
+
+### Contact [ contacts ]
+contacts:
+  title: "Contact Me"
+  list:
+    - label: "Phone"
+      icon: "fas fa-phone"
+      value: "+44 737 649 3260"
+
+    - label: "Email"
+      icon: "fas fa-at"
+      value: "jsabood19@gmail.com"
+
+    - label: "Address"
+      icon: "fas fa-location-arrow"
+      value: "3rd Vermont Apartment, Kettering, UK."
+
+### Blog [ blog ]
+#items generates from dir /_posts/*
+blog:
+  title: "My Blog"
+  text: "<p>Suspendisse potenti. Sed egestas eros eu libero posuere ultrices. Nullam ut aliquet felis, sit amet imperdiet felis.</p>"
+  button: "View Blog"
+  link: "blog/"
+
+### Portfolio [ portfolio ]
+#items generates from dir /_works/*
+portfolio:
+  title: "My Projects"
+  text: "<p>A Collection of my favorites project I’ve designed recently. Feeling great while sharing here.</p>"
