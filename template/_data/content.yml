@@ -254,7 +254,7 @@ contacts:
 
     - label: "Address"
       icon: "fas fa-location-arrow"
-      value: "3rd Vermont Apartment, Kettering, UK."
+      value: "Birmingham, UK."
 
 ### Blog [ blog ]
 #items generates from dir /_posts/*
