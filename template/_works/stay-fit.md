@@ -20,7 +20,7 @@ description1:
   title: Role in the Project
   text: "<p>As the developer of an LMS (Learning Management System), I undertook the task of crafting a comprehensive digital platform tailored for efficient educational delivery. My role involved architecting the system from the ground up, ensuring seamless integration of various learning tools and resources.</p>
 <p>I focused on creating a user-friendly interface, enabling educators to effortlessly manage course materials, assignments, and assessments. Additionally, I implemented robust features for student engagement, such as discussion forums, interactive quizzes, and progress tracking mechanisms.</p>
-<p>By prioritizing scalability and flexibility, I ensured that the LMS could adapt to the evolving needs of educational institutions of all sizes. Whether it's a small-scale classroom or a large-scale enterprise, my development efforts aimed to provide a dynamic and adaptable platform for effective online learning.</p>"
+<p>By prioritizing scalability and flexibility, I ensured that the LMS could adapt to the evolving needs of educational institutions of all sizes. Whether it's a small-scale classroom or a large-scale enterprise, my development efforts aimed to provide a dynamic and adaptable platform for effective online learning.</p><p><strong> Project URL Link: </strong>www.vipingomuslim.sc.ke</p>"
 
 gallery:
   # - assets/img/blog/blog3.jpg

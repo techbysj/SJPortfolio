@@ -20,7 +20,7 @@ description1:
   title: Role in the Project
   text: "<p>As the founder, developer, designer, and marketing specialist of The Novaa for Digital Marketing, I spearheaded the creation of a groundbreaking website aimed at revolutionizing SEO strategies. The Novaa website serves as a platform to elevate client testimonies into authentic reviews, thus enhancing SEO rankings for our clients.</p>
 <p>My multifaceted role involved conceptualizing and developing the website, ensuring seamless functionality and an intuitive user experience. Additionally, I crafted a visually compelling design to captivate visitors and convey credibility. Leveraging my expertise in marketing, I formulated strategies to promote the Novaa brand and attract clients seeking innovative SEO solutions.</p>
-<p>Through strategic implementation and continuous optimization, The Novaa empowers businesses to achieve higher SEO rankings and bolster their online presence. By converting client testimonies into genuine reviews, we provide a valuable service that drives tangible results and sets new standards in digital marketing excellence.</p>"
+<p>Through strategic implementation and continuous optimization, The Novaa empowers businesses to achieve higher SEO rankings and bolster their online presence. By converting client testimonies into genuine reviews, we provide a valuable service that drives tangible results and sets new standards in digital marketing excellence.</p><p><strong> Project URL Link: </strong>www.thenovaa.com</p>"
 
 gallery:
   # - assets/img/blog/blog3.jpg

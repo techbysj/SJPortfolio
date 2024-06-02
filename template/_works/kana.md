@@ -19,7 +19,7 @@ description1:
   show: yes
   title: Role In the Project
   text: "<p>As the developer for a manufacturing company, I was responsible for the deployment and version handling of the company's website. My role included managing cPanel for website hosting, ensuring smooth operations and maintenance of the company's online presence.</p>
-<p>I integrated SMS, email, and payment systems to streamline communication and transaction processes. By implementing these integrations, I enhanced the company's ability to interact with clients, process orders, and manage payments efficiently. My work ensured the company's website infrastructure was robust, secure, and capable of supporting its business objectives.</p>"
+<p>I integrated SMS, email, and payment systems to streamline communication and transaction processes. By implementing these integrations, I enhanced the company's ability to interact with clients, process orders, and manage payments efficiently. My work ensured the company's website infrastructure was robust, secure, and capable of supporting its business objectives.</p><p><strong> Project URL Link: </strong>www.sarazo.co.ke</p>"
 
 gallery:
   - https://sarazo.co.ke/wp-content/uploads/2024/05/diversity-mechanic-worker-using-metal-lathe-machin-2023-11-27-05-19-25-utc-scaled.jpg

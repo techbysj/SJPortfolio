@@ -19,7 +19,7 @@ description1:
   show: yes
   title: Role in the Project
   text: "<p>As the designer and developer of a charity organization website, I was responsible for creating a dynamic and user-friendly platform that facilitates donation payment collection and subscription integration. My role involved conceptualizing the design, developing the website's functionality, and ensuring a seamless user experience.</p>
-<p>I implemented secure payment gateways to allow donors to contribute easily and safely, while also integrating subscription features to keep supporters engaged and informed. By focusing on a responsive design and intuitive navigation, I ensured the website was accessible across various devices and platforms, ultimately supporting the organization's mission to maximize its outreach and impact.</p>"
+<p>I implemented secure payment gateways to allow donors to contribute easily and safely, while also integrating subscription features to keep supporters engaged and informed. By focusing on a responsive design and intuitive navigation, I ensured the website was accessible across various devices and platforms, ultimately supporting the organization's mission to maximize its outreach and impact.</p><p><strong> Project URL Link: </strong>www.bopfoundation.org</p>"
 
 gallery:
   - https://bopfoundation.org/wp-content/uploads/2021/07/case-8-1.jpg

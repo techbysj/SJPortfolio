@@ -8,8 +8,8 @@ hero:
   image: "assets/img/profile.png"
   image_alt: "Salim Jamal"
   title: "Salim <br>Abood"
-  subtitle: "Web Developer"
-  description: "I am a web developer based in the UK. I love crafting modern, user-friendly solutions and am passionate about creating a seamless web experience."
+  subtitle: "Web | Digital | Cloud"
+  description: "I am a website, digital, and cloud specialist based in the UK. I love crafting modern, user-friendly solutions and am passionate about creating a seamless web experience."
   info:
     - label: "Located in"
       value: "United Kingdom"
@@ -25,27 +25,27 @@ about:
   title: "About Me"
   text: "
   <p>
-    My name is Salim Jamal Abood, and I am driven by a passion for crafting seamless web experiences that effectively address complex business challenges. With 5 years of professional experience in web development, I have honed my skills in both front-end and back-end technologies through a combination of hired roles, freelance projects, and self-employment. This diverse experience has allowed me to cultivate a deep understanding of various web development frameworks and techniques.
+    My name is Salim Jamal Abood, and I am driven by a passion for crafting seamless digital experiences that effectively address complex business challenges. With 5 years of professional experience in website, digital, and cloud solutions, I have honed my skills in both front-end and back-end technologies through a combination of hired roles, freelance projects, and self-employment. This diverse experience has allowed me to cultivate a deep understanding of various development frameworks and techniques.
   </p>
   <p>
-   My extensive knowledge empowers me to seamlessly adapt within teams, demonstrating versatility and adaptability. I specialize in creating modern, user-friendly websites that offer a smooth and engaging experience for users, ensuring that each project I undertake stands out through the use of the latest technologies and design trends.
+   My extensive knowledge empowers me to seamlessly adapt within teams, demonstrating versatility and adaptability. I specialize in creating modern, user-friendly websites and cloud-based solutions that offer a smooth and engaging experience for users, ensuring that each project I undertake stands out through the use of the latest technologies and design trends.
   </p>
   <p>
-    Above all, my unwavering commitment lies in consistently delivering top-notch results within demanding timeframes. I prioritize both quality and timeliness, striving to exceed client expectations and deliver web experiences that are not only visually appealing but also highly functional and intuitive.
+    Above all, my unwavering commitment lies in consistently delivering top-notch results within demanding timeframes. I prioritize both quality and timeliness, striving to exceed client expectations and deliver digital experiences that are not only visually appealing but also highly functional and intuitive.
   </p>
   "
   list:
-    - label: "Completed <br>Project"
+    - label: "Completed <br>websites"
       icon: "far fa-check-circle"
-      value: "74"
+      value: "+100"
 
-    - label: "Happy <br>Clients"
+    - label: "Adobe <br>Suite"
       icon: "far fa-smile-beam"
-      value: "65"
+      value: "+1000"
 
-    - label: "Awards <br>Won"
+    - label: "Cloud <br>Implementations"
       icon: "far fa-gem"
-      value: "10"
+      value: "+10"
 
   button:
     text: "Contact Me"
@@ -59,33 +59,31 @@ about:
 resume:
   title: "My Resume"
   text: "
-  <p>
-    Seasoned web developer with +5 years of hands-on experience, adept at crafting innovative digital solutions. Specializing in front-end development, I bring a proven track record of delivering polished web experiences. Skilled in both freelance and corporate environments, I excel in adapting to diverse project requirements and collaborating effectively with stakeholders.
-  </p>
+  <p> Seasoned specialist in website, digital, and cloud solutions with over 5 years of hands-on experience, adept at crafting innovative digital experiences. Specializing in front-end development, I bring a proven track record of delivering polished and user-friendly web solutions. Skilled in both freelance and corporate environments, I excel in adapting to diverse project requirements and collaborating effectively with stakeholders.  </p>
   "
 
   skills:
     title: "Skills"
     items:
-      - label: "Front-End Development "
+      - label: "Static Websites "
         dots: "9" #0-10 progress in dots
-        value: "90" #0-100 progress in %
+        value: "99" #0-100 progress in %
 
-      - label: "Back-End Development"
-        dots: "6" #0-10 progress in dots
-        value: "60" #0-100 progress in %
-
-      - label: "WordPress"
+      - label: "Dynamic Websites"
         dots: "9" #0-10 progress in dots
-        value: "90" #0-100 progress in %
+        value: "99" #0-100 progress in %
 
-      - label: "Graphic Design"
+      - label: "CMS Websites"
         dots: "9" #0-10 progress in dots
-        value: "90" #0-100 progress in %
+        value: "99" #0-100 progress in %
+
+      - label: "Cloud Solutions"
+        dots: "9" #0-10 progress in dots
+        value: "99" #0-100 progress in %
 
       - label: "Digital Marketing"
         dots: "9" #0-10 progress in dots
-        value: "90" #0-100 progress in %
+        value: "99" #0-100 progress in %
 
   services:
     title: "Services"
@@ -129,7 +127,7 @@ resume:
       items:
         - date: "2023-2024"
           name: "Best Development Strategy"
-          text: "<p>Played a key role in a team, successfully managing and contributing to winning a prestigious record./p>"
+          text: "<p>Played a key role in a team, successfully managing and contributing to winning a prestigious record.</p>"
 
         - date: "2023-2024"
           name: "Best Outstanding Project"
@@ -143,19 +141,19 @@ resume:
           subname: "Web Developer"
           text: "<p>Led secure web development, cloud services integration, ecommerce platforms, hosting management, digital marketing, IT support, and CI/CD pipelines.</p>"
 
-        - date: "Jan 2021 - 2024"
-          name: "Rebune International Home appliance  Company"
-          subname: "Digital Transformation Specialist"
-          text: "<p>Directed web development, architectural design, ecommerce sites, hosting services, digital marketing strategies, and CI/CD pipeline optimization.</p>"
-
         - date: "Oct 2021 - Jan 2024"
           name: "Innovus Tech Consultancy Company"
           subname: "Web Developer"
           text: "<p>Led software development projects at Innovus Tech Consultants Limited, overseeing web development, technical consultancy, and the integration of innovative solutions such as a bank agent top-up service and various features in different services.</p>"
 
+        - date: "Aug 2019 - March 2024"
+          name: "Rebune International Home appliance  Company"
+          subname: "Digital Transformation Specialist"
+          text: "<p>Directed web development, architectural design, ecommerce sites, hosting services, digital marketing strategies, and CI/CD pipeline optimization.</p>"  
+
   button:
     text: "Download CV"
-    link: "https://drive.google.com/file/d/1-Sm1BL2Ut5o4HMuYl-H4GFoa4IEgp5vt/view"
+    link: "https://drive.google.com/file/d/1ipXtOPoQLEkcWtiYIOHkFYJkgGhTB3XQ/view?usp=sharing"
 
 ### Pricing [ pricing ]
 pricing:
@@ -229,16 +227,16 @@ clients:
   text: "<p>Over the years, I have had the privilege of collaborating with a diverse array of clients. Their satisfaction and success are a testament to my dedication and expertise. Here are some of the esteemed brands I've had the pleasure to work with:</p>"
   items:
     - image: "assets/img/brands/brand1.png"
-      title: "bslthemes"
+      title: "techbysj"
 
     - image: "assets/img/brands/brand2.png"
-      title: "bslthemes"
+      title: "techbysj"
 
     - image: "assets/img/brands/brand3.png"
-      title: "bslthemes"
+      title: "techbysj"
 
     - image: "assets/img/brands/brand4.png"
-      title: "bslthemes"
+      title: "techbysj"
 
 ### Contact [ contacts ]
 contacts:

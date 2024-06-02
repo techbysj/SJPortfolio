@@ -4,7 +4,7 @@
 
 ### Main Settings
 settings:
-  skin: "light" # select initial sking option: "light" or "dark"
+  skin: "dark" # select initial sking option: "light" or "dark"
 
 ### Preloader
 preloader:
