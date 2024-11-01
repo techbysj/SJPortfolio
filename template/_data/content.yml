@@ -8,17 +8,17 @@ hero:
   image: "assets/img/profile.png"
   image_alt: "Salim Jamal"
   title: "Salim <br>Abood"
-  subtitle: "Web | Digital | Cloud"
-  description: "I am a website, digital, and cloud specialist based in the UK. I love crafting modern, user-friendly solutions and am passionate about creating a seamless web experience."
+  subtitle: " Developer | Digital Specialist"
+  description: "I am a motivated Software Developer and Digital specialist based in the Dublin. I love crafting modern, user-friendly solutions and am passionate about creating a seamless web experience."
   info:
     - label: "Located in"
-      value: "United Kingdom"
+      value: "Dublin, Ireland."
 
     - label: "Experience"
       value: "5+ Years"
 
     - label: "Date of Birth"
-      value: "19th March 2001"
+      value: "19th March 2004"
 
 ### About [ about ]
 about:
@@ -115,7 +115,7 @@ resume:
   history1:
     - title: "EDUCATION"
       items:
-        - date: "2020 - 2023"
+        - date: "2022"
           name: "Diploma in Information Technology"
           text: "Jomo Kenyatta University of Agriculture & Technology"
 
@@ -136,24 +136,24 @@ resume:
   history2:
     - title: "EXPERIENCE"
       items:
-        - date: "Feb 2022 - Dec 2023"
+        - date: "2023"
           name: "MyWish Enterprise's ecommerce platforms"
           subname: "Web Developer"
           text: "<p>Led secure web development, cloud services integration, ecommerce platforms, hosting management, digital marketing, IT support, and CI/CD pipelines.</p>"
 
-        - date: "Oct 2021 - Jan 2024"
+        - date: "2022"
           name: "Innovus Tech Consultancy Company"
           subname: "Web Developer"
           text: "<p>Led software development projects at Innovus Tech Consultants Limited, overseeing web development, technical consultancy, and the integration of innovative solutions such as a bank agent top-up service and various features in different services.</p>"
 
-        - date: "Aug 2019 - March 2024"
+        - date: "2022"
           name: "Rebune International Home appliance  Company"
           subname: "Digital Transformation Specialist"
           text: "<p>Directed web development, architectural design, ecommerce sites, hosting services, digital marketing strategies, and CI/CD pipeline optimization.</p>"  
 
   button:
     text: "Download CV"
-    link: "https://drive.google.com/file/d/1ipXtOPoQLEkcWtiYIOHkFYJkgGhTB3XQ/view?usp=sharing"
+    link: "#"
 
 ### Pricing [ pricing ]
 pricing:
@@ -221,7 +221,7 @@ testimonials:
       role: "CEO &amp; Founder"
       text: "<p>Salim is a highly skilled developer who brings creativity and precision to every project. His contributions have greatly improved our team's performance.</p>"
 
-### Clients [ clients ]
+## Clients [ clients ]
 clients:
   title: "My Clients"
   text: "<p>Over the years, I have had the privilege of collaborating with a diverse array of clients. Their satisfaction and success are a testament to my dedication and expertise. Here are some of the esteemed brands I've had the pleasure to work with:</p>"
@@ -242,17 +242,17 @@ clients:
 contacts:
   title: "Contact Me"
   list:
-    - label: "Phone"
-      icon: "fas fa-phone"
-      value: "+44 737 649 3260"
+    # - label: "Phone"
+    #   icon: "fas fa-phone"
+    #   value: "+44 737 649 3260"
 
     - label: "Email"
       icon: "fas fa-at"
-      value: "jsabood19@gmail.com"
+      value: "sja193200@gmail.com"
 
     - label: "Address"
       icon: "fas fa-location-arrow"
-      value: "Birmingham, UK."
+      value: "Dublin, Ireland."
 
 ### Blog [ blog ]
 #items generates from dir /_posts/*
