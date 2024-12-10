@@ -8,14 +8,14 @@ hero:
   image: "assets/img/profile.png"
   image_alt: "Salim Jamal"
   title: "Salim <br>Abood"
-  subtitle: " Developer | Digital Specialist"
-  description: "I am a motivated Software Developer and Digital specialist based in the Dublin. I love crafting modern, user-friendly solutions and am passionate about creating a seamless web experience."
+  subtitle: " Software Engineer"
+  description: "I am a motivated Software, Cloud and Digital specialist based in the Dublin. I love crafting modern, user-friendly solutions and am passionate about creating a seamless experiences."
   info:
     - label: "Located in"
       value: "Dublin, Ireland."
 
     - label: "Experience"
-      value: "5+ Years"
+      value: "3+ Years"
 
     - label: "Date of Birth"
       value: "19th March 2004"
@@ -25,10 +25,10 @@ about:
   title: "About Me"
   text: "
   <p>
-    My name is Salim Jamal Abood, and I am driven by a passion for crafting seamless digital experiences that effectively address complex business challenges. With 5 years of professional experience in website, digital, and cloud solutions, I have honed my skills in both front-end and back-end technologies through a combination of hired roles, freelance projects, and self-employment. This diverse experience has allowed me to cultivate a deep understanding of various development frameworks and techniques.
+    My name is Salim Jamal Abood, and I am driven by a passion for crafting seamless digital experiences that effectively address complex business challenges. With more than 3 years of professional experience in Software, Digital, and cloud solutions, I have honed my skills in both front-end and back-end technologies through a combination of hired roles, freelance projects, and self-employment. This diverse experience has allowed me to cultivate a deep understanding of various development frameworks and techniques.
   </p>
   <p>
-   My extensive knowledge empowers me to seamlessly adapt within teams, demonstrating versatility and adaptability. I specialize in creating modern, user-friendly websites and cloud-based solutions that offer a smooth and engaging experience for users, ensuring that each project I undertake stands out through the use of the latest technologies and design trends.
+   My extensive knowledge empowers me to seamlessly adapt within teams, demonstrating versatility and adaptability. I specialize in creating modern, user-friendly Software and cloud-based solutions that offer a smooth and engaging experience for users, ensuring that each project I undertake stands out through the use of the latest technologies and design trends.
   </p>
   <p>
     Above all, my unwavering commitment lies in consistently delivering top-notch results within demanding timeframes. I prioritize both quality and timeliness, striving to exceed client expectations and deliver digital experiences that are not only visually appealing but also highly functional and intuitive.
@@ -113,11 +113,11 @@ resume:
         link: "#contact-section"
 
   history1:
-    - title: "EDUCATION"
+    - title: 
       items:
-        - date: "2022"
-          name: "Diploma in Information Technology"
-          text: "Jomo Kenyatta University of Agriculture & Technology"
+        - date: 
+          name: 
+          text: 
 
         # - date: "2006 - 2009"
         #   name: "Bachelors of FineArt"
@@ -138,17 +138,17 @@ resume:
       items:
         - date: "2023"
           name: "MyWish Enterprise's ecommerce platforms"
-          subname: "Web Developer"
-          text: "<p>Led secure web development, cloud services integration, ecommerce platforms, hosting management, digital marketing, IT support, and CI/CD pipelines.</p>"
+          subname: "Software Developer"
+          text: "<p>Led secure software development, cloud services integration, ecommerce platforms, hosting management, digital marketing, IT support, and CI/CD pipelines.</p>"
 
         - date: "2022"
           name: "Innovus Tech Consultancy Company"
-          subname: "Web Developer"
+          subname: "Digital Specialist"
           text: "<p>Led software development projects at Innovus Tech Consultants Limited, overseeing web development, technical consultancy, and the integration of innovative solutions such as a bank agent top-up service and various features in different services.</p>"
 
         - date: "2022"
           name: "Rebune International Home appliance  Company"
-          subname: "Digital Transformation Specialist"
+          subname: "Software Developer"
           text: "<p>Directed web development, architectural design, ecommerce sites, hosting services, digital marketing strategies, and CI/CD pipeline optimization.</p>"  
 
   button:
