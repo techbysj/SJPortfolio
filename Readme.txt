@@ -1,9 +1,9 @@
 /**
- *  Salim Jamal Abood | Portfolio
+ *  Salim Jamal Salim | Portfolio
  *  🚀 Website: [sj44.netlify.app](https://sj44.netlify.app/)
  *  💻 GitHub: [techbysj](https://github.com/techbysj/SJPortfolio)
- *  📧 Email: jsabood19@gmail.com
- *  📜 Copyright © Salim Jamal Abood. All Rights Reserved.
+ *  📧 Email: sja193200@gmail.com
+ *  📜 Copyright © Salim Jamal Salim. All Rights Reserved.
  **/
 
 --------------------------------------
