@@ -7,9 +7,9 @@
 hero:
   image: "assets/img/profile.png"
   image_alt: "Salim Jamal"
-  title: "Salim <br>Abood"
-  subtitle: " Software Engineer"
-  description: "I am a motivated Software, Cloud and Digital specialist based in the Dublin. I love crafting modern, user-friendly solutions and am passionate about creating a seamless experiences."
+  title: "Salim Jamal <br>Salim"
+  subtitle: " Msc in Software Engineering | Certified Digital Marketer"
+  description: "I am a motivated Software, Cloud and Digital specialist based in the Ireland. I love crafting modern, user-friendly solutions and am passionate about creating a seamless experiences."
   info:
     - label: "Located in"
       value: "Dublin, Ireland."
@@ -17,15 +17,15 @@ hero:
     - label: "Experience"
       value: "3+ Years"
 
-    - label: "Date of Birth"
-      value: "19th March 2004"
+    - label: "Status"
+      value: "Open to work"
 
 ### About [ about ]
 about:
   title: "About Me"
   text: "
   <p>
-    My name is Salim Jamal Abood, and I am driven by a passion for crafting seamless digital experiences that effectively address complex business challenges. With more than 3 years of professional experience in Software, Digital, and cloud solutions, I have honed my skills in both front-end and back-end technologies through a combination of hired roles, freelance projects, and self-employment. This diverse experience has allowed me to cultivate a deep understanding of various development frameworks and techniques.
+    My name is Salim Jamal Salim, and I am driven by a passion for crafting seamless digital experiences that effectively address complex business challenges. With more than 3 years of professional experience in Software, Digital, and cloud solutions, I have honed my skills in both front-end and back-end technologies through a combination of hired roles, freelance projects, and self-employment. This diverse experience has allowed me to cultivate a deep understanding of various development frameworks and techniques.
   </p>
   <p>
    My extensive knowledge empowers me to seamlessly adapt within teams, demonstrating versatility and adaptability. I specialize in creating modern, user-friendly Software and cloud-based solutions that offer a smooth and engaging experience for users, ensuring that each project I undertake stands out through the use of the latest technologies and design trends.
@@ -45,7 +45,7 @@ about:
 
     - label: "Cloud <br>Implementations"
       icon: "far fa-gem"
-      value: "+10"
+      value: "+50"
 
   button:
     text: "Contact Me"
@@ -58,9 +58,7 @@ about:
 ### Resume [ resume ]
 resume:
   title: "My Resume"
-  text: "
-  <p> Seasoned specialist in website, digital, and cloud solutions with over 5 years of hands-on experience, adept at crafting innovative digital experiences. Specializing in front-end development, I bring a proven track record of delivering polished and user-friendly web solutions. Skilled in both freelance and corporate environments, I excel in adapting to diverse project requirements and collaborating effectively with stakeholders.  </p>
-  "
+  text: "Experienced web, digital, and cloud solutions specialist with more than 3years of expertise in Digital and Software Solutions. Proven ability to create polished, user-friendly websites in both freelance and corporate settings. Skilled at adapting to diverse project needs and collaborating effectively with stakeholders to deliver high-quality digital experiences."
 
   skills:
     title: "Skills"
@@ -119,9 +117,9 @@ resume:
           name: 
           text: 
 
-        # - date: "2006 - 2009"
-        #   name: "Bachelors of FineArt"
-        #   text: "New York University"
+        - date: "2024 - 2026"
+          name: "Master of Science in Computer Science: Software Engineering "
+          text: "Woolf University, United States of America."
 
     - title: "AWARDS"
       items:
@@ -151,9 +149,9 @@ resume:
           subname: "Software Developer"
           text: "<p>Directed web development, architectural design, ecommerce sites, hosting services, digital marketing strategies, and CI/CD pipeline optimization.</p>"  
 
-  button:
-    text: "Download CV"
-    link: "#"
+  # button:
+  #   text: "Download CV"
+  #   link: "#"
 
 ### Pricing [ pricing ]
 pricing:
@@ -162,7 +160,7 @@ pricing:
   items:
     - name: "Full Time"
       subname: "Available for Full Time"
-      price: "$120,000 p.a"
+      price: "$70,000 p.a"
       list:
         - value: "Frontend Development"
         - value: "Backend Development"

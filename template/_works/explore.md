@@ -1,17 +1,17 @@
 ---
 # preview details
 layout: works-single
-title: TEO
-category: Tutor | Community Empowerment
+title: Irela Agency
+category: Irish Technology Company
 category_slug: development
-image: https://techbysj.ke/wp-content/uploads/2019/10/6-1.jpg
+image: https://digitalplatform-react-django.netlify.app/assets/img/about/4.png
 
 
 # full details
-full_image: https://techbysj.ke/wp-content/uploads/2023/08/SJ-1-scaled.jpg
+full_image: https://www.energyireland.ie/wp-content/uploads/2022/01/Irish-Renewable-Energy-Summit-20-02-20-HR-39-scaled.jpg
 info:
   - label: Year
-    value: 2022
+    value: 2025
 
   - label: Technology
     value: Development
@@ -19,7 +19,27 @@ info:
 description1:
   show: yes
   title:  Role in the Project
-  text: "<p>As the Founder and Lead Technical Trainer of TechbySJ Empowerment Organisation, I play a pivotal role in bridging the technology gaps across Africa. Our mission is to empower lives through technology by providing comprehensive training programs tailored to meet the needs of diverse communities. I oversee the development and implementation of these programs, ensuring they are accessible, inclusive, and impactful.</p><p>In my role, I led a dedicated team of trainers and educator, collaborating with local and international partners to deliver cutting-edge technology education. By fostering a supportive learning environment and leveraging innovative teaching methodologies, we equip individuals with the skills and knowledge needed to thrive in the digital age. Through our initiatives, TechBySJ aims to inspire a generation of tech-savvy leaders capable of driving sustainable development and economic growth in Africa.</p><p><strong> Project URL Link: </strong>www.techbysj.ke</p>"
+  text: "<p>As the Lead Developer for IrelaTech’s full-stack web application, I designed and implemented a scalable digital platform using React (frontend) and Django (backend). The project delivers tailored solutions for businesses in Ireland, featuring:
+
+Secure user authentication (JWT/OAuth).
+
+Dynamic dashboards with role-based access control.
+
+Payment integration (Stripe/PayPal).
+
+Dockerized deployment for seamless scaling.
+
+Tech Stack Highlights:
+
+Frontend: React, Redux, Axios.
+
+Backend: Django REST Framework, PostgreSQL.
+
+DevOps: AWS, Nginx, CI/CD pipelines.<br>
+
+<strong>Live Demo: https://digitalplatform-react-django.netlify.app/
+</strong>
+</p>"
 
 gallery:
   - https://techbysj.ke/wp-content/uploads/2019/10/3.jpg

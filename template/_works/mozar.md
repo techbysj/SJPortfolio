@@ -1,16 +1,16 @@
 ---
 # preview details
 layout: works-single
-title: Novaa
+title: Shishir - Thai & Indian Restaurant
 category: Digital Marketing 
 category_slug: photography
-image: https://techbysj.ke/wp-content/uploads/2019/10/6-2.jpg
+image: https://shishir.ie/wp-content/uploads/2024/02/WhatsApp-Image-2024-02-18-at-18.02.31-6.jpeg
 
 # full details
-full_image: https://techbysj.ke/wp-content/uploads/2019/10/6-2.jpg
+full_image: https://shishir.ie/wp-content/uploads/2024/02/WhatsApp-Image-2024-02-18-at-18.02.31-6.jpeg
 info:
   - label: Year
-    value: 2022
+    value: 2025
 
   - label: Technology
     value: Developer | Designer | Marketing Specialist
@@ -18,9 +18,19 @@ info:
 description1:
   show: yes
   title: Role in the Project
-  text: "<p>As the founder, developer, designer, and marketing specialist of The Novaa for Digital Marketing, I spearheaded the creation of a groundbreaking website aimed at revolutionizing SEO strategies. The Novaa website serves as a platform to elevate client testimonies into authentic reviews, thus enhancing SEO rankings for our clients.</p>
-<p>My multifaceted role involved conceptualizing and developing the website, ensuring seamless functionality and an intuitive user experience. Additionally, I crafted a visually compelling design to captivate visitors and convey credibility. Leveraging my expertise in marketing, I formulated strategies to promote the Novaa brand and attract clients seeking innovative SEO solutions.</p>
-<p>Through strategic implementation and continuous optimization, The Novaa empowers businesses to achieve higher SEO rankings and bolster their online presence. By converting client testimonies into genuine reviews, we provide a valuable service that drives tangible results and sets new standards in digital marketing excellence.</p><p><strong> Project URL Link: </strong>www.thenovaa.com</p>"
+  text: "<p>As the Developer, Designer, and Marketing Specialist for Shishir Indian Thai Restaurant, I created a vibrant digital platform to showcase our fusion cuisine and amplify our online reach. My contributions included:
+
+Development: Built a fast, mobile-responsive website featuring an interactive menu, reservation system, and immersive gallery.
+
+Design: Crafted a visually appealing interface that reflects the restaurant’s blend of Indian and Thai cultural aesthetics.
+
+Marketing: Launched targeted SEO and social media campaigns to boost visibility, leveraging customer reviews and promotions.
+
+Impact:
+
+Improved online engagement and reservation rates.
+
+Strengthened brand identity through cohesive visuals and UX.</p><p><strong> Project URL Link: </strong>www.shishir.ie</p>"
 
 gallery:
   # - assets/img/blog/blog3.jpg
